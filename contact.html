@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Resume :: Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
+            SHARE</button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="contact.html" class="nav-link active">CONTACT</a>
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/images/photo_2023-10-14_03-05-25.jpg" alt="profile">
+            </div>
+            <h1 class="profile-name">SERGEY VANEYAN</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">MANUAL QA ENGINER</span>
+            </div>
+            <nav class="social-links">
+                <a href="https://www.instagram.com/who_is_serg/" class="social-link"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="www.linkedin.com/in/sergey-vaneyan-471a8128a/" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <p>BIRTHDAY : 22 July 1995</p>
+                    <p>PHONE : +374 (43) 22-22-98</p>
+                    <p>MAIL : serg.vaneyan@gmail.com</p>
+                    <p>LOCATION : Yerevan, Armenia</p>
+                    <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">DOWNLOAD CV </button>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p style="text-align: left;">English :</p>
+                        <div class="progress-container" style="width: 100%;
+                        background-color: #9c9c9c;">
+                            <div class="progress-bar" style="width: 60%; 
+                            height: 15px;
+                            background-color: #0067f6;" > 60%</div>
+                        </div>
+                        <p style="text-align: left;">Armenian :</p>
+                        <div class="progress-container" style="width: 100%;
+                        background-color: #9c9c9c;">
+                            <div class="progress-bar" style="width: 100%; 
+                            height: 15px;
+                            background-color: #0067f6;" > 100%</div>
+                        </div>
+                        <p style="text-align: left;">Russian :</p>
+                        <div class="progress-container" style="width: 100%;
+                        background-color: #9c9c9c;">
+                            <div class="progress-bar" style="width: 90%; 
+                            height: 15px;
+                            background-color: #0067f6;" > 90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p><i class="fa-solid fa-futbol"></i> Football</p>
+                        <p><i class="fa-solid fa-chess-knight"></i> Chess</p>
+                        <p><i class="fa-solid fa-film"></i> Movies</p>
+                        <p><i class="fa-solid fa-dumbbell"></i> GYM</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="contact-section">
+                <h2 class="section-title">GET IN TOUCH</h2>
+                <p class="mb-4">If you’d like to talk about a project, our work or anything else then get in touch.</p>
+                
+                <div class="contact-cards-wrapper">
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">CALL US</h6>
+                        <p class="contact-card-content">+374 (43) 22-22-98</p>
+                    </div>
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">Email Us</h6>
+                        <p class="contact-card-content">serg.vaneyan@gmail.com</p>
+                    </div>
+                </div>
+
+                <form action="#!" class="contact-form">
+                    <div class="form-group form-group-name">
+                      <label for="name" class="sr-only">Name</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
+                    </div>
+                    <div class="form-group form-group-email">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" class="form-control" placeholder="MESSAGE" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn">SEND MESSAGE</button>
+                </form>
+
+            </section>
+            <section class="location-section">
+                <h5 class="section-title">MY LOCATION</h5>
+
+                <div class="map-wrapper embed-responsive embed-responsive-16by9"">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6100.911888605474!2d44.519156489327095!3d40.13212645173388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sam!4v1697652802135!5m2!1sru!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/entry/jq.entry.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+</body>
+
+</html>
